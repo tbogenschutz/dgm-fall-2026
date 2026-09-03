@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Lecture Notes from Lecture 1: Intro
+title: Lecture Notes from Lecture 1-Intro
 description: Course Overview and Intro to Machine Learning.
 date: 2026-09-03
 
