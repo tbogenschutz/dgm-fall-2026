@@ -11,7 +11,7 @@ lecturers:
 authors:
   - name: Erin Bogenschutz
   - name: Tori Bogenschutz
-  - name: Natasha
+  - name: Natasha Ziman
 
 editors:
   - name: Editor 1 # editor's full name
