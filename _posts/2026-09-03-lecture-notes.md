@@ -18,7 +18,7 @@ editors:
     url: "#" # optional URL to the editor's homepage
 
 abstract: >
-  An example abstract block
+  This lecture introduced the course and the foundations of machine learning. It covers information from the syllabus including grading, the course webpage, and office hours. It also introduced the definition of machine learning, the different categories of machine learning, and machine learning jargon and notation.
 ---
 
 ## Equations
