@@ -30,13 +30,20 @@ Find details on course logistics, schedule, lecture notes, and assignments on th
 
 ### Instructors
 **Professor Ben Lengerich**
+
 Email: lengerich@wisc.edu
+
 Office Hours: Thursdays from 11:00 am to 12:00 pm in Morgridge 5530
+
 Professor Lengerich's research blends data science with medicine using context-adaptive models to understand diseases and improve precision medicine.
 
+
 **TA Baiheng Chen**
+
 Email: bchen342@wisc.edu
+
 Office Hours: TBD
+
 
 ### Grading
 - Homework: 20%
