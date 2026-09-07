@@ -144,7 +144,6 @@ When building a machine learning system, there are three fundamental questions t
 ---
 
 ## The Broad Categories of ML
-## The Broad Categories of ML
 
 ### 1. Supervised Learning
 
@@ -173,8 +172,6 @@ When building a machine learning system, there are three fundamental questions t
 **Performance (P):**
 - A measure of how accurate (h) is
 
----
-
 ### 2. Unsupervised Learning
 
 - There are no Y/labels, only inputs (X)
@@ -191,8 +188,6 @@ When building a machine learning system, there are three fundamental questions t
 
 **Performance (P):**
 - Measure of fit
-
----
 
 ### 3. Reinforcement Learning
 
