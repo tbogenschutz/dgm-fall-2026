@@ -86,6 +86,12 @@ This definition can be broken down into three important components:
 - **Experience ($E$):** The data or interactions that the system learns from.
 - **Performance measure ($P$):** How we determine whether the system is performing well.
 
+Traditional programming and machine learning differ in how the program is created. In traditional programming, the programmer provides a program that takes inputs and produces outputs. In machine learning, the computer uses inputs and outputs to learn a program.
+
+<img src="{{ '/assets/img/notes/traditional-programming-ml.png' | relative_url }}" />
+
+**Figure 1:** Comparison of the traditional programming paradigm and machine learning.
+
 ### Three Fundamental Questions in Machine Learning
 
 When building a machine learning system, there are three fundamental questions to consider:
