@@ -90,7 +90,7 @@ Traditional programming and machine learning differ in how the program is create
 
 <img src="{{ '/assets/img/notes/traditional-programming-ml.png' | relative_url }}" />
 
-**Figure 1:** Comparison of the traditional programming paradigm and machine learning.
+**Figure 1:** Comparison of traditional programming and machine learning.
 
 ### Three Fundamental Questions in Machine Learning
 
