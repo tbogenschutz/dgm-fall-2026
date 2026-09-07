@@ -78,6 +78,63 @@ The project is broken down into parts. The proposal (5%), midway report (5%), pr
 
 ## What is Machine Learning?
 
+Machine learning (ML) is a way of creating programs that improve their performance at a task through experience. More formally, a program is considered to learn from experience $E$ with respect to a task $T$ and performance measure $P$ if its performance at task $T$, as measured by $P$, improves with experience $E$.
+
+This definition can be broken down into three important components:
+
+- **Task ($T$):** What the machine learning system is trying to accomplish.
+- **Experience ($E$):** The data or interactions that the system learns from.
+- **Performance measure ($P$):** How we determine whether the system is performing well.
+
+### Three Fundamental Questions in Machine Learning
+
+When building a machine learning system, there are three fundamental questions to consider:
+
+1. **Representation:** How should we represent the problem and the information contained in the data?
+   
+   In probabilistic form, suppose we have variables $X_1, X_2, \ldots, X_8$. To represent the joint distribution of all eight variables, if each variable is Boolean, there are $2^8 = 256$ possible configurations of the variables. By using the conditional independence relationships between variables, a graphical model can represent the same joint distribution using far fewer parameters.
+
+2. **Inference:** Given the representation, what can we conclude or predict about unknown information?
+   
+   In probabilistic form, suppose we want to determine the probability of one variable given another:
+
+   $$
+   P(X_8 \mid X_1)
+   $$
+
+   Using the definition of conditional probability:
+
+   $$
+   P(X_8 \mid X_1) = \frac{P(X_8, X_1)}{P(X_1)}
+   $$
+
+   If the other variables are unobserved, we can marginalize over them:
+
+   $$
+   P(X_8 \mid X_1) =
+   \frac{\sum_{X_2,\ldots,X_7} P(X_1,\ldots,X_8)}
+   {P(X_1)}
+   $$
+
+   For Boolean variables, this requires summing over $2^6$ configurations of the six unobserved variables. Independence assumptions can simplify this calculation. Graphical models can be useful because they provide an intermediate representation between explicitly representing every possibility and assuming complete independence.
+
+3. **Learning:** How can we use available data or experience to learn the appropriate model? What model is "right" for the data?
+   
+   In probabilistic form,
+
+   $$
+   M = \underset{M \in \mathcal{H}}{\operatorname{argmax}} \; F(D; M)
+   $$
+
+   where:
+
+   - $M$ is the selected model.
+   - $\mathcal{H}$ is the hypothesis space, or set of possible models.
+   - $D$ is the available data.
+   - $F(D; M)$ is a function that evaluates how well model $M$ fits or performs on the data.
+
+   An important question in learning is how to constrain the hypothesis space $\mathcal{H}$ so that we can efficiently search for a useful model rather than considering every possible model.
+
 ---
 
 ## The Broad Categories of ML
