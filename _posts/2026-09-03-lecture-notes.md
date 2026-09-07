@@ -159,7 +159,6 @@ When building a machine learning system, there are three fundamental questions t
 
 - Observe examples from different classes
 - Learn a boundary/rule that separates them
-- Example: positive vs. negative examples
 
 #### Definition
 
@@ -199,7 +198,7 @@ When building a machine learning system, there are three fundamental questions t
 - Humans provide feedback such as a thumbs-up/down or preference
 - That feedback provides a reward signal
 
-#### Formal Definition
+#### Definition
 
 **Task (T):**
 - Learn a policy (π) mapping states to actions
