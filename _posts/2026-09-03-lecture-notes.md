@@ -88,7 +88,7 @@ This definition can be broken down into three important components:
 
 Traditional programming and machine learning differ in how the program is created. In traditional programming, the programmer provides a program that takes inputs and produces outputs. In machine learning, the computer uses inputs and outputs to learn a program.
 
-<img src="{{ '/assets/img/notes/traditional-programming-ml.png' | relative_url }}" />
+<img src="/dgm-fall-2026/assets/img/notes/traditional-programming-ml.png" />
 
 **Figure 1:** Comparison of traditional programming and machine learning.
 
