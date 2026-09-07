@@ -213,6 +213,32 @@ When building a machine learning system, there are three fundamental questions t
 
 ## The Supervised Learning Workflow
 
+### Training vs. Testing Data
+
+In supervised learning:
+
+#### Training Data
+
+- Contains observed inputs and outputs
+- Used to learn the model's parameters
+
+#### Testing Data
+
+- Kept separate from training
+- Used to evaluate how well the learned parameters model real phenomena
+
+### Structured vs. Unstructured Data
+
+#### Structured Data
+
+Usually organized into:
+- Tables
+- Matrices
+
+#### Unstructured Data
+
+- Images
+- Natural language
 ---
 
 ## Necessary ML Notation and Jargon
