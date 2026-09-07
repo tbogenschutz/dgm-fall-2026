@@ -104,9 +104,9 @@ When building a machine learning system, there are three fundamental questions t
    
    In probabilistic form, suppose we want to determine the probability of one variable given another:
 
-    <d-math block>
-     P(X_8 \mid X_1)
-    </d-math>
+    $$
+    P(X_8 \mid X_1)
+    $$
 
    Using the definition of conditional probability:
 
