@@ -144,7 +144,76 @@ When building a machine learning system, there are three fundamental questions t
 ---
 
 ## The Broad Categories of ML
+## The Broad Categories of ML
 
+### 1. Supervised Learning
+
+- Labeled data
+- Direct feedback
+- Trying to predict some outcome
+
+#### Regression
+
+- Function that predicts Y from X
+
+#### Classification
+
+- Observe examples from different classes
+- Learn a boundary/rule that separates them
+- Example: positive vs. negative examples
+
+#### Definition
+
+**Task (T):**
+- Learn a function (h) that maps X → Y
+
+**Experience (E):**
+- Labeled samples containing both X and Y
+
+**Performance (P):**
+- A measure of how accurate (h) is
+
+---
+
+### 2. Unsupervised Learning
+
+- There are no Y/labels, only inputs (X)
+- **Goal:** Find hidden structure or patterns in the data
+- **Examples:** PCA, clustering, autoencoders
+
+#### Definition
+
+**Task (T):**
+- Discover structure in the data
+
+**Experience (E):**
+- A set of X values with no Y labels
+
+**Performance (P):**
+- Measure of fit
+
+---
+
+### 3. Reinforcement Learning
+
+- Instead of every X being mapped to a Y, the goal is to learn which actions lead to the best expected reward
+
+#### Example: LLM Feedback
+
+- A model generates outputs/conversations
+- Humans provide feedback such as a thumbs-up/down or preference
+- That feedback provides a reward signal
+
+#### Formal Definition
+
+**Task (T):**
+- Learn a policy (π) mapping states to actions
+
+**Experience (E):**
+- Interaction with the environment
+
+**Performance (P):**
+- Expected reward
 ---
 
 ## The Supervised Learning Workflow
