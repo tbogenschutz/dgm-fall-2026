@@ -42,7 +42,7 @@ Professor Lengerich's research blends data science with medicine using context-a
 
 Email: bchen342@wisc.edu
 
-Office Hours: TBD
+Office Hours: Wednesdays/Fridays from 2:00-3:00 PM on Zoom
 
 
 ### Grading
