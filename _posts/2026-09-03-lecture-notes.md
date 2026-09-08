@@ -241,10 +241,37 @@ Usually organized into:
 ---
 
 ## Necessary ML Notation and Jargon
+- **Training model** = fitting a model = parameterizing a model = learning from data
+- **Training example** = training record = training instance = training sample
+- **Feature** = observation = predictor = variable = independent variable = input = attribute = covariate
+    - A feature is an individual measurable input that is used by a model to make a prediction.
+- **Target** = outcome = ground truth = output = response variable = dependent variable
+    - The target is the correct value that the model is trying to predict. 
+- **Output/Prediction** = the valye produced by the model for a given inupt
+    - The **Target** is the correct answer, while the **prediction** is the model's estimated answer
+ 
+For a given training example: 
+
+Input/features -> model -> prediction
+
+The **prediction** is compared with the **target** to evaluate how well the model performed. 
+
 
 ---
 
 ## About the Practical Aspects and Tools
+
+The primary tules used throughout this course will be: 
+
+  - PyTorch
+  - Python
+  - Jupyter Notebooks
+  - Matplotlib
+
+We will also use additional machine learning libraries and tools including
+  - MLxtend
+  - scikit-learn
+  - Hugging Face
 
 ---
 
